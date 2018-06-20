@@ -1,0 +1,81 @@
+/*html, body {
+    height: 100%;
+}*/
+header, footer {
+    width: 100%;
+    height: 75px;
+    background-color: darkcyan; 
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    /* align-self: flex-start|center|flex-end; */
+}
+header  div.left {
+    padding-left: 20px;
+}
+
+header > div.right > a, img {
+    padding-right: 20px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+div.conteudo {
+    display: flex;
+    height: 740px;
+}
+
+div.produto > div > button{
+    background-color: darkcyan;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+div.container {
+    overflow: auto;
+    border: 1px solid black;
+    width: 70%;
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+div.produto > span {
+    padding: 0px 0px 0px 45px;
+    font-size: 20px;
+}
+div.produto { 
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/*div.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.aside > div > button {
+    align-self: center;
+    padding: 0 0 10 0px;
+    width: 75px;
+} */
+
+footer {
+    position: absolute;
+    bottom: 0px;   
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer > a {
+    padding: 10px;
+}
